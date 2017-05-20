@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Baseclasses
+Bundle-SymbolicName: com.anish.so.q0001.baseclasses
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ANISH
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.anish.s0.q0001

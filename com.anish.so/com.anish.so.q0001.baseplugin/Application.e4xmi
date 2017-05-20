@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_apOaoD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_bUFVgD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.trimmedwindow.mainwindow" label="SO Q0001">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_GyBNYD2WEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.partsashcontainer.0">
+      <children xsi:type="basic:PartStack" xmi:id="_-6hFoD2VEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_t_4tUD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.child1" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.ChildClass1Part" label="Child Class 1"/>
+        <children xsi:type="basic:Part" xmi:id="_5y8SYD2WEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.baseclass" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.BaseClassPart" label="Base Class"/>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_apOaoT2REeeGE_AO36sDuw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_apOaoj2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_apOaoz2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_apOapD2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_apOapT2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_apOapj2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_apOapz2REeeGE_AO36sDuw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
