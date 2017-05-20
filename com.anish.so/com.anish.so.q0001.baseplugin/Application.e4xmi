@@ -3,8 +3,9 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_bUFVgD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.trimmedwindow.mainwindow" label="SO Q0001">
     <children xsi:type="basic:PartSashContainer" xmi:id="_GyBNYD2WEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.partsashcontainer.0">
       <children xsi:type="basic:PartStack" xmi:id="_-6hFoD2VEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.partstack.0">
-        <children xsi:type="basic:Part" xmi:id="_t_4tUD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.child1" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.ChildClass1Part" label="Child Class 1"/>
         <children xsi:type="basic:Part" xmi:id="_5y8SYD2WEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.baseclass" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.BaseClassPart" label="Base Class"/>
+        <children xsi:type="basic:Part" xmi:id="_t_4tUD2REeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.child1" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.ChildClass1Part" label="Child Class 1"/>
+        <children xsi:type="basic:Part" xmi:id="_n3NasD2YEeeGE_AO36sDuw" elementId="com.anish.so.q0001.baseplugin.part.childclass2" contributionURI="bundleclass://com.anish.so.q0001.baseplugin/com.anish.so.q0001.parts.ChildClass2Part" label="Child Class 2"/>
       </children>
     </children>
   </children>

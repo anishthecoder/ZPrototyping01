@@ -5,7 +5,8 @@ Bundle-SymbolicName: com.anish.so.q0001.baseplugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: ANISH
 Require-Bundle: org.eclipse.e4.ui.di,
- com.anish.so.q0001.baseclasses
+ com.anish.so.q0001.baseclasses,
+ com.anish.so.q0001.childclasses
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
  javax.inject;version="1.0.0"
