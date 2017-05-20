@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Childclasses
+Bundle-SymbolicName: com.anish.so.q0001.childclasses
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ANISH
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.anish.so.q0001.baseclasses;bundle-version="1.0.0"
+Export-Package: com.anish.s0.q0001
