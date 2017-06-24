@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="q0003"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="q0003">
+         <property
+               name="appName"
+               value="q0003">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
