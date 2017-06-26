@@ -1,0 +1,7 @@
+.error {
+	-fx-border-color: red;
+}
+
+.success {
+	-fx-border-color: green;
+}
