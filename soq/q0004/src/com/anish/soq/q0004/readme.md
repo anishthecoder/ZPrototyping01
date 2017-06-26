@@ -22,3 +22,18 @@ class may have been added.
 
 Here, I check what the contents of this `ObservableList<?>` are with repeated
 attempts to add the same style class to a particular node in a JavaFX scene.
+
+## Result
+
+When adding a style class, making multiple calls to add a style class as 
+follows,
+
+	textField.getStyleClass().addAll(ERROR_CLASS);
+	
+results in that style class being added multiple times to the list.
+However, one call to remove the same style class, 
+
+	textField.getStyleClass().removeAll(ERROR_CLASS);
+	
+appears to remove every instance of that class.
+	

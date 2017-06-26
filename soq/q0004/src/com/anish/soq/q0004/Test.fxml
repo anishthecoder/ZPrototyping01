@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane
-	xmlns:fx="http://javafx.com/fxml/1"
 	xmlns="http://javafx.com/javafx/8.0.111"
-	fx:controller="com.anish.soq.q0004.Test">
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.anish.soq.q0004.Controller">
 	<top>
 		<TextField
+			fx:id="textField"
 			promptText="Just some text field"
 			BorderPane.alignment="CENTER">
 			<BorderPane.margin>
@@ -36,25 +36,46 @@
 			</BorderPane.margin>
 			<children>
 				<Button
-					alignment="BOTTOM_RIGHT"
+					fx:id="addTfErrorBttn"
+					alignment="CENTER"
 					contentDisplay="BOTTOM"
 					maxWidth="1.7976931348623157E308"
 					mnemonicParsing="false"
-					text="Click me for errors">
+					onAction="#addTfErrorBttnAction"
+					text="Add text-field 'error'">
 					<VBox.margin>
-						<Insets bottom="10.0" />
+						<Insets />
 					</VBox.margin>
 				</Button>
 				<Button
-					alignment="BOTTOM_RIGHT"
+					fx:id="addTfSuccessBttn"
+					alignment="CENTER"
 					contentDisplay="BOTTOM"
+					maxWidth="1.7976931348623157E308"
 					mnemonicParsing="false"
-					text="Click me for success" />
+					onAction="#addTfSuccessBttnAction"
+					text="Add text-field 'success'" />
+				<Button
+					fx:id="removeTfErrorBttn"
+					alignment="CENTER"
+					contentDisplay="BOTTOM"
+					maxWidth="1.7976931348623157E308"
+					mnemonicParsing="false"
+					onAction="#removeTfErrorBttnAction"
+					text="Remove text-field 'error'" />
+				<Button
+					fx:id="removeTfSuccessBttn"
+					alignment="CENTER"
+					contentDisplay="BOTTOM"
+					maxWidth="1.7976931348623157E308"
+					mnemonicParsing="false"
+					text="Remove text-field 'success'" />
 			</children>
 		</VBox>
 	</right>
 	<center>
 		<TextArea
+			fx:id="textArea"
 			prefHeight="200.0"
 			prefWidth="200.0"
 			promptText="A simple text area"
