@@ -6,7 +6,7 @@
         <children xsi:type="basic:Part" xmi:id="_kTuVkMY_EeeVjsHtlkMhXQ" elementId="q0006a.plugin.part.regularpart" label="Regular Part"/>
       </children>
       <children xsi:type="basic:PartStack" xmi:id="_iItPgMY_EeeVjsHtlkMhXQ" elementId="q0006a.plugin.partstack.1">
-        <children xsi:type="basic:Part" xmi:id="_in3QsMY_EeeVjsHtlkMhXQ" elementId="q0006a.plugin.part.testfxpart" label="TestFXPart"/>
+        <children xsi:type="basic:Part" xmi:id="_in3QsMY_EeeVjsHtlkMhXQ" elementId="q0006a.plugin.part.testfxpart" contributionURI="bundleclass://q0006a.plugin/com.anish.soq.q0006a.parts.FXTestPart" label="TestFXPart"/>
       </children>
     </children>
     <mainMenu xmi:id="_7QWz8MZAEeeVjsHtlkMhXQ" elementId="q0006a.plugin.menu.0"/>

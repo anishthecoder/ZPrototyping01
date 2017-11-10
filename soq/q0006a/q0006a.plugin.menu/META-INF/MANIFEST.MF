@@ -5,5 +5,9 @@ Bundle-SymbolicName: q0006a.plugin.menu;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.e4.ui.model.workbench;bundle-version="2.0.1.v20170713-1800",
   org.eclipse.e4.core.di
-Import-Package: javax.inject;version="1.0.0"
+Import-Package: javax.inject,
+ org.eclipse.swt,
+ org.eclipse.swt.events,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.widgets
 Bundle-RequiredExecutionEnvironment: JavaSE-9
