@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_SpmAsMZAEeeVjsHtlkMhXQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UTNC0MZAEeeVjsHtlkMhXQ" featurename="children" parentElementId="q0006a.plugin.menu.0" positionInList="">
+    <elements xsi:type="menu:Menu" xmi:id="_T1bsQMZBEeeVjsHtlkMhXQ" elementId="q0006a.plugin.menu.menu.testmenu" label="Test Menu">
+      <children xsi:type="menu:DirectMenuItem" xmi:id="_CWz5QMZBEeeVjsHtlkMhXQ" elementId="q0006a.plugin.menu.directmenuitem.simpletest" label="Simple Test" tooltip="Prints to the console" contributionURI="bundleclass://q0006a.plugin.menu/com.anish.soq.q0006a.handlers.SimpleTest"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

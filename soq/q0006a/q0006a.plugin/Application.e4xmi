@@ -9,6 +9,7 @@
         <children xsi:type="basic:Part" xmi:id="_in3QsMY_EeeVjsHtlkMhXQ" elementId="q0006a.plugin.part.testfxpart" label="TestFXPart"/>
       </children>
     </children>
+    <mainMenu xmi:id="_7QWz8MZAEeeVjsHtlkMhXQ" elementId="q0006a.plugin.menu.0"/>
   </children>
   <addons xmi:id="_YCIBEcY_EeeVjsHtlkMhXQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_YCIBEsY_EeeVjsHtlkMhXQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
