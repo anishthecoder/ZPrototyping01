@@ -20,6 +20,8 @@ public class FXDialogTest {
 	@Execute
 	public void execute() {
 
+		javafx.application.Platform.setImplicitExit(false);
+
 		if (openShell != null) {
 			openShell.forceFocus();
 			return;
@@ -30,6 +32,7 @@ public class FXDialogTest {
 		dlgShell.setLayout(new FillLayout());
 		dlgShell.setText("Publish Images...");
 
+		final FXCanvas canvas = new FXCanvas(dlgShell, SWT.NONE);
 		Group group = new Group();
 		Scene scene = new Scene(group);
 		Button button = new Button("Dialog Button");
@@ -38,7 +41,6 @@ public class FXDialogTest {
 		});
 		group.getChildren().add(button);
 
-		final FXCanvas canvas = new FXCanvas(dlgShell, SWT.NONE);
 		canvas.setScene(scene);
 
 		/* Dialog opening is not blocking. */

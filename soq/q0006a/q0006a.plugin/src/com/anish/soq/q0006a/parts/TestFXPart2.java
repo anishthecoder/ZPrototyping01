@@ -12,12 +12,12 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 
-public class FXTestPart {
+public class TestFXPart2 {
 
 	private Scene createScene() {
 		Group group = new Group();
 		Scene scene = new Scene(group);
-		Button button = new Button("JFX Button");
+		Button button = new Button("JFX Button Part 2");
 		group.getChildren().add(button);
 		return scene;
 	}
@@ -29,4 +29,5 @@ public class FXTestPart {
 		Scene scene = createScene();
 		canvas.setScene(scene);
 	}
+
 }
