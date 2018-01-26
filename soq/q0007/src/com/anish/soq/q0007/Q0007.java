@@ -28,8 +28,14 @@ public class Q0007 {
 
 			final List<StackPane> panes = new ArrayList<>();
 			for (int i = 0; i < 4; i++) {
-				final StackPane p = newPane();
+
+				// Create a new pane with a random background color for
+				// illustration
+				final StackPane p = createNewPane();
 				panes.add(p);
+
+				// The addition / removal of the following line affects the
+				// layout.
 				p.setStyle("-fx-border-width:2px;-fx-border-color:red");
 			}
 
@@ -50,11 +56,11 @@ public class Q0007 {
 				}
 			}
 			stage.show();
+			gridPane.requestLayout();
 		});
-
 	}
 
-	static StackPane newPane() {
+	static StackPane createNewPane() {
 		final StackPane p = new StackPane();
 		p.setBackground(
 			new Background(
